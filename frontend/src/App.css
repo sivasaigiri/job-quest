@@ -25,13 +25,18 @@ body {
   margin: 0;
 }
 
+.navbar .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .navbar .nav-links a {
   margin: 0 1rem;
   text-decoration: none;
-  color: black;
+  color: #333; /* Default color */
   font-weight: bold;
   border: 1px solid transparent;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
@@ -42,6 +47,13 @@ body {
   border-color: #7d5eff;
 }
 
+.navbar .nav-links .active-link {
+  color: #7d5eff; /* Highlight color */
+  font-weight: bold;
+  background-color: #f0f0ff; /* Subtle background highlight for active links */
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
 
 .main-section {
   display: flex;
@@ -84,9 +96,10 @@ body {
 
 .trusted-logos img {
   margin: 0 1rem;
-  width: 50px;
+  width: 30px;
   height: auto;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #333; /* Default color */
@@ -95,6 +108,10 @@ body {
 }
 
 .nav-links .active-link {
-  color: #7d5eff; /* Highlight color, adjust as per JobQuest font color */
+  color: #7d5eff; /* Highlight color */
   font-weight: bold;
+  border: 1px solid #7d5eff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  background-color: #f0f0ff; /* Subtle active link background */
 }

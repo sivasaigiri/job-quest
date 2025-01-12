@@ -11,7 +11,7 @@ function Home() {
             and Engagement Focus.
           </h1>
           <p>
-            “Personalized Opportunities, Collaborative Success.”
+            “Personalized Opportunities with Collaborative Success.”
             <br />
             “Your Personalized Hub for Career and Academic Excellence.”
           </p>
